@@ -1,0 +1,69 @@
+#wrapper{
+	width: 1080px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#logo{
+	width: 300px;
+	margin: 0px auto;
+}
+
+html{
+	background-color:#F7AB40;
+	color:DeepSkyBlue;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+#home{
+	background-repeat: no-repeat;
+	background: url("bizon.jpg");
+	background-size: 100%;
+}
+
+h1{
+	font-size:120px;
+}
+
+#coffee{
+	width:600px;
+}
+
+#menu{
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	
+}
+
+#menu ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menu li{
+	display: inline-block;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+#menu li a{
+	color:DeepSkyBlue;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+#menu li:hover a{
+	color: white;
+	text-decoration: underline;
+}
+
+#header, #content{
+	border-bottom: 5px solid black;
+}
+
+#content, footer{
+	padding: 10px;
+}
